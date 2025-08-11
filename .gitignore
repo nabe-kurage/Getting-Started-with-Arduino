@@ -1,0 +1,62 @@
+# ------------------------
+# OSごとの不要ファイル
+# ------------------------
+# macOS Finder設定ファイル
+.DS_Store
+.AppleDouble
+.LSOverride
+
+# Windowsサムネイル・設定
+Thumbs.db
+ehthumbs.db
+Desktop.ini
+
+# Linuxゴミ箱
+.Trash-*
+
+# ------------------------
+# Node.js / JavaScript
+# ------------------------
+node_modules/
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+pnpm-debug.log*
+package-lock.json
+yarn.lock
+pnpm-lock.yaml
+
+# ------------------------
+# ビルド成果物
+# ------------------------
+dist/
+build/
+.cache/
+out/
+
+# ------------------------
+# 環境変数ファイル
+# ------------------------
+.env
+.env.*.local
+
+# ------------------------
+# IDE / エディタ
+# ------------------------
+# VSCode
+.vscode/
+.history/
+
+# JetBrains系 (IntelliJ, WebStorm, PhpStorm, etc.)
+.idea/
+
+# その他エディタ
+*.swp
+*.swo
+
+# ------------------------
+# ログ / 一時ファイル
+# ------------------------
+*.log
+*.tmp
+*.temp
